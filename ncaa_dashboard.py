@@ -37,7 +37,7 @@ def get_espn_ncaa_data():
  
 # Function to scrape opening odds from Vegas Insider
 def get_opening_odds():
-    url = https://www.vegasinsider.com/college-basketball/odds/las-vegas/
+    url = "https://www.vegasinsider.com/college-basketball/odds/las-vegas/"
     response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
     soup = BeautifulSoup(response.text, "html.parser")
    
