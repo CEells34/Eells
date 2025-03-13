@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup4
+from bs4 import BeautifulSoup
  
 # Title
 st.title("🏀 College Basketball Betting Dashboard")
