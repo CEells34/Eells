@@ -12,7 +12,7 @@ selected_team = st.sidebar.text_input("Enter a Team Name:")
  
 # Function to scrape ESPN NCAA data
 def get_espn_ncaa_data():
-    url = https://www.espn.com/mens-college-basketball/scoreboard
+    url = "https://www.espn.com/mens-college-basketball/scoreboard"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
    
